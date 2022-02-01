@@ -9,9 +9,9 @@ Se basa en la idea de inmutabilidad de datos. Al modificar el estado, lo que rea
 
 ## Context (ReactJS)
 
-La API de Context nos proveen básicamente la misma idea de compartir y centralizar el estado en toda la aplicación.
-Para usar Context, React nos brinda el Hook que sirve para consultar el estado actual de nuestro contexto, porque podemos tener varios contextos aislados de hecho.
-La realidad es que generalmente se utiliza para compartir estado en nuestra app. Si bien puede modificarse el estado, React no provee por defecto una manera de realizarlo, pero podemos crear funciones y maneras de actualizar el context.
+La API de Context nos provee básicamente la misma idea de compartir y centralizar el estado en toda la aplicación.
+Con Context necesitamos crear el contexto, o sea los datos que queremos compartir o acceder desde varios lados, y después tenemos que usar un Provider para envolver los componentes en los cuales queremos disponer de esa info, generalmente toda la app es envuelta en este proveedor. Para usar Context, React nos brinda el Hook que sirve para consultar el estado actual de nuestro contexto, porque podemos tener varios contextos aislados de hecho.
+La realidad es que generalmente se utiliza para compartir estado en nuestra app. Si bien puede modificarse el estado, Context no provee por defecto una manera de realizarlo, pero podemos crear funciones y maneras de actualizar el context.
 
 ## Cosas en común
 
